@@ -21,12 +21,10 @@ import { HeaderComponent } from './components/header/header.component';
     Value2PropComponent,
     Value3PropComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
